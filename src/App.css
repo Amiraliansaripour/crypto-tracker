@@ -5,8 +5,18 @@
     background-size: cover;
     clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 70%, 100% 100%, 34% 86%, 0 100%, 0 0);
 }
+
+.tv-intro-shape{
+    clip-path: polygon(100% 53%, 0 0, 0 100%);
+}
+
 @media screen and (max-width:768px) {
     .hero{
         clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 70%, 100% 100%, 34% 100%, 0 100%, 0 0);
     }
+
+    .tv-intro-shape{
+        clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 70%, 100% 100%, 34% 100%, 0 100%, 0 0);
+    }
 }
+

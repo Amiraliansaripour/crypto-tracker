@@ -1,5 +1,5 @@
 import React from 'react'
-import { CalcCoin, Hero } from '../../sections'
+import { AboutUs, CalcCoin, Hero, OurServices, TvIntro } from '../../sections'
 
 
 const Home = () => {
@@ -7,6 +7,9 @@ const Home = () => {
    <>
    <Hero />
    <CalcCoin />
+   <AboutUs />
+   <OurServices />
+   <TvIntro />
    </>
   )
 }
