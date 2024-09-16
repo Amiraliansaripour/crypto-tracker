@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className={`hero max-md:h-auto h-[90vh] `}>
       <CoinList />
-      <div className="flex justify-center items-center">
+      <div className="container mx-auto flex justify-center items-center">
         <div className="container p-2">
           <Header />
 
